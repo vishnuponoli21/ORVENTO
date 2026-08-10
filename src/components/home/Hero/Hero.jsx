@@ -24,7 +24,7 @@ function Hero() {
               coordination.
             </div>
             <button
-              className={`${style.poppinsSemibold} text-[24px] bg-gradient-to-r from-[#F58B70] to-[#F72C84] w-[260px] h-[64px] text-white rounded-4xl`}
+              className={`${style.poppinsSemibold} text-[24px] bg-linear-to-r from-[#F58B70] to-[#F72C84] w-65 h-16 text-white rounded-4xl`}
             >
               Request a Demo
             </button>
