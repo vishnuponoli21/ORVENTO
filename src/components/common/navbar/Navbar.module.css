@@ -31,6 +31,6 @@
   background: transparent;
 }
 
-.box > * {
+.box {
   position: relative;
 }

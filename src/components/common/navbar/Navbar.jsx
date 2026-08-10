@@ -6,7 +6,7 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 function Navbar() {
   return (
     <>
-      <div className="fixed z-10 w-full p-7">
+      <div className="absolute z-10 w-full p-7">
         <div className="grid grid-cols-3 items-center justify-center">
           <div>
             <a href="">
@@ -40,11 +40,11 @@ function Navbar() {
           </div>
           <div className={`${style.poppinssemibold} flex justify-end gap-5 `}>
             <div
-              className={`${style.box} border-2 pt-1 pb-1 w-25  rounded-3xl text-white`}
+              className={`${style.box} ${style.}border-2 pt-1 pb-1 w-25  rounded-3xl text-white`}
             >
               LOGIN
             </div>
-            <div className="bg-linear-to-r from-[#F58B70] to-[#F72C84] flex justify-center items-center pt-1 pb-1 w-25 text-white rounded-3xl">
+            <div className={`${style.} bg-linear-to-r from-[#F58B70] to-[#F72C84] flex justify-center items-center pt-1 pb-1 w-25 text-white rounded-3xl`}>
               LOGOUT
             </div>
           </div>
