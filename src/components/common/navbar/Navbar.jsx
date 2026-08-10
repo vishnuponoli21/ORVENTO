@@ -40,11 +40,13 @@ function Navbar() {
           </div>
           <div className={`${style.poppinssemibold} flex justify-end gap-5 `}>
             <div
-              className={`${style.box} ${style.}border-2 pt-1 pb-1 w-25  rounded-3xl text-white`}
+              className={`${style.box} ${style.boxanim}border-2 pt-1 pb-1 w-25  rounded-3xl text-white`}
             >
               LOGIN
             </div>
-            <div className={`${style.} bg-linear-to-r from-[#F58B70] to-[#F72C84] flex justify-center items-center pt-1 pb-1 w-25 text-white rounded-3xl`}>
+            <div
+              className={`${style.boxanim} bg-linear-to-r from-[#F58B70] to-[#F72C84] flex justify-center items-center pt-1 pb-1 w-25 text-white rounded-3xl`}
+            >
               LOGOUT
             </div>
           </div>
